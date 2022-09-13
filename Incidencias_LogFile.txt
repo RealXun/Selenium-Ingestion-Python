@@ -1,0 +1,146 @@
+Excel File was read
+webdriver.Chrome was Opened
+Dictionaries werer Loaded
+
+
+Variables were created
+Information Google Form Opened
+Information Agente selected Christian
+Information Source Selected RECEPCION
+Information Phone Number inserted 661076060
+Information Email inserted nan
+Information Housing Development Selected SIN_PROMOCIÓN
+Information Result Selected SeCorta
+Information Task Inserted Successfully
+The task took 0.6875 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_ENTRANTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 657823390
+Postventa Promocion Selected HABITAT_JARDINES_DE_VELILLA
+Postventa Vivienda Inserted VI-6-4
+Postventa Cualificación Selected na
+Postventa Llamada Util de Informacion selected
+Postventa Tipo de llamada de Informacion Selected Seguimiento
+Postventa tipo informativo Task Inserted Successfully
+The task took 0.6875 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_ENTRANTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 653677131
+Postventa Promocion Selected HABITAT_VISTAMAR
+Postventa Vivienda Inserted VI-3-2-F
+Postventa Cualificación Selected na
+Postventa Llamada Util de Informacion selected
+Postventa Tipo de llamada de Informacion Selected Seguimiento
+Postventa tipo informativo Task Inserted Successfully
+The task took 0.6875 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected LLAMADA_ENTRANTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 685955552
+Postventa Promocion Selected HABITAT_RESIDENCIAL_ATRIUM
+Postventa Vivienda Inserted VI-2-2-5-D
+Postventa Cualificación Selected MUY_ENFADADO
+Postventa Llamada Util de Informacion selected
+Postventa Tipo de llamada de Informacion Selected Procedimiento
+Postventa tipo informativo Task Inserted Successfully
+The task took 0.703125 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_SALIENTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 685955552
+Postventa Promocion Selected HABITAT_RESIDENCIAL_ATRIUM
+Postventa Vivienda Inserted VI-2-2-5-D
+Postventa Cualificación Selected na
+Postventa Llamada Util de Informacion selected
+Postventa Tipo de llamada de Informacion Selected Procedimiento
+Postventa tipo informativo Task Inserted Successfully
+The task took 0.734375 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_ENTRANTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 626091919
+Postventa Promocion Selected HABITAT_TORREMALILLA
+Postventa Vivienda Inserted VI-1-12-A
+Postventa Cualificación Selected na
+Postventa Llamada Util de Informacion selected
+Postventa Tipo de llamada de Informacion Selected Procedimiento
+Postventa tipo informativo Task Inserted Successfully
+The task took 0.765625 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_ENTRANTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 626276597
+Postventa Promocion Selected HABITAT_TORREMALILLA
+Postventa Vivienda Inserted VI-2-4-C
+Postventa Cualificación Selected na
+Postventa Llamada Util de Informacion selected
+Postventa Tipo de llamada de Informacion Selected Procedimiento
+Postventa tipo informativo Task Inserted Successfully
+The task took 0.828125 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_ENTRANTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 654865822
+Postventa Promocion Selected HABITAT_TORREMALILLA
+Postventa Vivienda Inserted VI-2-6-C
+Postventa Cualificación Selected na
+Postventa Llamada Util de Reclamacion selected
+Postventa Tipo de llamada de Recleamacion Selected Nueva
+Postventa tipo Reclamacion Task Inserted Successfully
+The task took 0.828125 To be completed
+
+
+Variables were created
+Postventa Google Form Opened
+Postventa Agente Selected Christian
+Postventa Source Selected CORREO_SALIENTE
+UTIL is clicked
+Postventa CANAL Selected CONTACT
+Postventa Telefono inserted 654865822
+Postventa Promocion Selected HABITAT_TORREMALILLA
+Postventa Vivienda Inserted VI-2-6-C
+Postventa Cualificación Selected na
+Postventa Llamada Util de Reclamacion selected
+Postventa Tipo de llamada de Recleamacion Selected Nueva
+Postventa tipo Reclamacion Task Inserted Successfully
+The task took 0.859375 To be completed
+
+
+All the records were written in the Google Form, There were no errors.

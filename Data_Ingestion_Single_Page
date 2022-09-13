@@ -54,7 +54,7 @@ for row, datos in df.iterrows():
     InformationForm = 'https://forms.gle/oLq3tF4AhKnY2NE58'
 ############################################## VARIABLES INFORMATION FORMULARY  ##############################################
     InfoAgent =  datos ['Agent Name']
-    InfoSource =  datos ['Source of the call']
+    InfoSource =  datos ['Source']
     InfoPhone = datos ['Phone Number']
     InfoProduct = datos ['Product']
     InfoEmail = datos ['Email Adress']
