@@ -15,10 +15,53 @@ The Task here is to fill multiple responses from a excel file with the same Goog
 
 ## Links:
 - InformationCalls Form – [Click Here](https://forms.gle/jm28YptQGPj6XvLJA)
-- Excel File – [Click Here](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Calls.xlsx)
+- Excel File – [Click Here](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Calls.xlsx) 
 
+## The form has six entries:
 
-![Cover](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Form%20Picture.PNG)
+- Agent Name
+   - Daniel
+   - David
+- Source (Source of the call)
+   - Incoming Call
+   - Outgoing Call
+- Phone Number
+  - Home repairs
+  - Personal care
+- Email Adress
+- Product
+- Call Result
+  - Silent call
+  - Call dropped
+  - Unanswered call
+  - Transferred to sales
+
+![form](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Form%20Picture.PNG)
+
+## Excel File
+The exel file should be modified as needed. Always according to the changes in the code.
+
+> Note: This excel is ready for two types of forms. But this code only use the information form
+
+In the image we can see what rows we use in this form
+
+![Excel](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Information%20Excel%20Image.PNG)
+
+## Try the code
+If you try this code with the same excel file, you can check the ingested data in [this link](https://docs.google.com/spreadsheets/d/1MEjJ1B7DBeAALJrZeE3LAuyaFqDc835yOe_sSm8RNdg/edit?usp=sharing)
+
+![ExcelOnline](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Excel%20online%20image.PNG)
+
+## Approach
+To achieve our required functionality given steps needs to followed in an order:
+
+Import selenium and time module
+Add chrome driver path
+Create dicctionaries
+Open chrome and load google form
+Load excel file with the data
+Iterate through each data and fill detail
+Close the window
 
 ## License
 
