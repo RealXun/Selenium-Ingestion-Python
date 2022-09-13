@@ -49,7 +49,6 @@ InfoResult_dict={'Silent call':'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[6]/div/d
                      'Not interested':'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div[2]/div[7]'
                      }
 print ('Dictionaries were Loaded', end='\n\n\n',flush=True)##We print the step in case there is an error
-############################################## VARIABLES   ##############################################
 for row, datos in df.iterrows():
 ############################################## Manually typed VARIABLES  ##############################################
     InformationForm = 'https://forms.gle/oLq3tF4AhKnY2NE58'
