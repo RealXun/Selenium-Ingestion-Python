@@ -51,15 +51,15 @@ In the image we can see what rows we use in this form
 ## Approach:
 Using the Xpath of the google form we want to achieve our required functionality given steps needs to followed in an order:
 
-Import selenium and time module
-Excel File Path and Read Excel File
-Add chrome driver path
-Create dicctionaries
-Creation of Variables
-Open chrome and load google form
-Iterate through each data and fill detail
-Log File Creation
-Close the window
+- Import selenium and time module
+- Excel File Path and Read Excel File
+- Add chrome driver path
+- Create dicctionaries
+- Creation of Variables
+- Open chrome and load google form
+- Iterate through each data and fill detail
+- Log File Creation
+- Close the window
 
 ## Log File:
 A log file will be created in the same folder where you execute the code to check if everything was ok or to check where the code failed ingesting data.
