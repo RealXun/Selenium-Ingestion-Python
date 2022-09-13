@@ -61,10 +61,14 @@ Create dicctionaries
 Open chrome and load google form
 Load excel file with the data
 Iterate through each data and fill detail
+Log File Creation
 Close the window
 
-## License
+## Log File
+A log file will be created to check if everything was ok or to check where the code failed ingesting data.
+![LogFile](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Log%20File%20Image.PNG)
 
+## License
 MIT
 
 **Free Software, Hell Yeah!**
