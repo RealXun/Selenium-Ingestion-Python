@@ -15,7 +15,8 @@ The Task here is to fill multiple responses from a excel file with the same Goog
 
 ## Links:
 - InformationCalls Form – [Click Here](https://forms.gle/jm28YptQGPj6XvLJA)
-- Excel File – [Click Here](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Calls.xlsx) 
+- Excel File – [Click Here](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Calls.xlsx)
+- Python File– [Click Here](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Data_Ingestion_Single_Page.py)
 
 ## The form has six entries:
 
@@ -48,7 +49,7 @@ In the image we can see what rows we use in this form
 ![Excel](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Information%20Excel%20Image.PNG)
 
 ## Approach:
-To achieve our required functionality given steps needs to followed in an order:
+Using the Xpath of the google form we want to achieve our required functionality given steps needs to followed in an order:
 
 Import selenium and time module
 Excel File Path and Read Excel File
@@ -61,13 +62,16 @@ Log File Creation
 Close the window
 
 ## Log File:
-A log file will be created to check if everything was ok or to check where the code failed ingesting data.
+A log file will be created in the same folder where you execute the code to check if everything was ok or to check where the code failed ingesting data.
 ![LogFile](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Log%20File%20Image.PNG)
 
 ## Try the code:
 If you try this code with the same excel file, you can check the ingested data in [this link](https://docs.google.com/spreadsheets/d/1MEjJ1B7DBeAALJrZeE3LAuyaFqDc835yOe_sSm8RNdg/edit?usp=sharing)
 
 ![ExcelOnline](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Excel%20online%20image.PNG)
+
+## Contact:
+Do not hesitate to contact me for any further explanation about the code.
 
 ## License
 MIT
