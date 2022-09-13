@@ -27,10 +27,10 @@ The Task here is to fill multiple responses from a excel file with the same Goog
    - Incoming Call
    - Outgoing Call
 - Phone Number
-  - Home repairs
-  - Personal care
 - Email Adress
 - Product
+  - Home repairs
+  - Personal care
 - Call Result
   - Silent call
   - Call dropped
