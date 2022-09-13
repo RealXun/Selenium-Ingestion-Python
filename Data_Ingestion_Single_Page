@@ -16,7 +16,7 @@ start = time.process_time() ##We will count how long it takes to do each task
 import warnings #we get a warning from the excel file. It is due openpyxl cant handle files with list boxes, it does not interfere the proper runnin of the code.
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 import sys #we are gonna create a log file with it. The log file will be re-written everytime we use the code.
-sys.stdout=open("Incidencias_LogFile.txt","w") #Opening/creation of the log file
+sys.stdout=open("LogFile.txt","w") #Opening/creation of the log file
 #############################   Excel File Path and Read Excel   ###############################################
 username = os.getlogin()
 path= os.path.expanduser(F'C:/Users/{username}/Downloads/Calls.xlsx')##In this way we do not assign a windows user, it will look for it.# Creating a Path variable and Use username var in f string
