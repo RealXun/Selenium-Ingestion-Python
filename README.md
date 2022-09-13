@@ -38,7 +38,7 @@ The Task here is to fill multiple responses from a excel file with the same Goog
 
 ![form](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Form%20Picture.PNG)
 
-## Excel File
+## Excel File:
 The exel file should be modified as needed. Always according to the changes in the code.
 
 > Note: This excel is ready for two types of forms. But this code only use the information form
@@ -47,26 +47,27 @@ In the image we can see what rows we use in this form
 
 ![Excel](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Information%20Excel%20Image.PNG)
 
-## Try the code
-If you try this code with the same excel file, you can check the ingested data in [this link](https://docs.google.com/spreadsheets/d/1MEjJ1B7DBeAALJrZeE3LAuyaFqDc835yOe_sSm8RNdg/edit?usp=sharing)
-
-![ExcelOnline](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Excel%20online%20image.PNG)
-
-## Approach
+## Approach:
 To achieve our required functionality given steps needs to followed in an order:
 
 Import selenium and time module
+Excel File Path and Read Excel File
 Add chrome driver path
 Create dicctionaries
+Creation of Variables
 Open chrome and load google form
-Load excel file with the data
 Iterate through each data and fill detail
 Log File Creation
 Close the window
 
-## Log File
+## Log File:
 A log file will be created to check if everything was ok or to check where the code failed ingesting data.
 ![LogFile](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Log%20File%20Image.PNG)
+
+## Try the code:
+If you try this code with the same excel file, you can check the ingested data in [this link](https://docs.google.com/spreadsheets/d/1MEjJ1B7DBeAALJrZeE3LAuyaFqDc835yOe_sSm8RNdg/edit?usp=sharing)
+
+![ExcelOnline](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Excel%20online%20image.PNG)
 
 ## License
 MIT
