@@ -1,10 +1,7 @@
 # Data Ingestion With Selenium V1
 ## _Automatically filling multiple responses into a **single page** Google Form with Selenium_ and Python
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)   ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)   ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Cover](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/cover.png)
-
-
+> Note: Check below for a video example.
 ## Prerequisites:
 - Selenium
 - Python
@@ -64,12 +61,16 @@ Using the Xpath of the google form we want to achieve our required functionality
 
 ## Log File:
 A log file will be created in the same folder where you execute the code to check if everything was ok or to check where the code failed ingesting data.
-![LogFile](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Log%20File%20Image.PNG)
+
+![LogFile](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Log%20File%20Image.PNG | width=100)
 
 ## Try the code:
 If you try this code with the same excel file, you can check the ingested data in [this link](https://docs.google.com/spreadsheets/d/1MEjJ1B7DBeAALJrZeE3LAuyaFqDc835yOe_sSm8RNdg/edit?usp=sharing)
 
 ![ExcelOnline](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Excel%20online%20image.PNG)
+
+## video example:
+https://user-images.githubusercontent.com/112812176/190384467-a29c3ee7-7f59-466f-85e2-cf6b6bb28728.mp4
 
 ## Contact:
 Do not hesitate to contact me for any further explanation about the code.
