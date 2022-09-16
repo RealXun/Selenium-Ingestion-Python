@@ -40,7 +40,7 @@ The Task here is to fill multiple responses from a excel file with the same Goog
 ## Excel File:
 The exel file should be modified as needed. Always according to the changes in the code.
 
-> Note: This excel is ready for two types of forms. But this code only use the information form
+> Note: This excel is ready for two types of forms. But this code only use the information form. Also you will need to adjust the route where you have the excel file.
 
 In the image we can see what rows we use in this form
 
@@ -61,8 +61,6 @@ Using the Xpath of the google form we want to achieve our required functionality
 
 ## Log File:
 A log file will be created in the same folder where you execute the code to check if everything was ok or to check where the code failed ingesting data.
-
-![LogFile](https://github.com/RealXun/Selenium-Ingestion-Python/blob/main/Resources/Log%20File%20Image.PNG | width=100)
 
 ## Try the code:
 If you try this code with the same excel file, you can check the ingested data in [this link](https://docs.google.com/spreadsheets/d/1MEjJ1B7DBeAALJrZeE3LAuyaFqDc835yOe_sSm8RNdg/edit?usp=sharing)
