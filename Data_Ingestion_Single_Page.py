@@ -8,30 +8,28 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-#Time is important in this code due to sometimes Google Form cannot handle the speed and we need to give it time to process the information.
-import time
-#We need it to read the excel file
-import pandas as pd
-# we need it in order to automatically recognize the user of the computer
-import os
-#we get a warning from the excel file. It is due openpyxl cant handle files with list boxes, it does not interfere the proper runnin of the code. 
-import warnings 
-#we are gonna create a log file with it. The log file will be re-written everytime we use the code.
-import sys
+import time#Time is important in this code due to sometimes Google Form cannot handle the speed and we need to give it time to process the information.
+import pandas as pd#We need it to read the excel file
+import os# we need it in order to automatically recognize the user of the computer
+import warnings #we get a warning from the excel file. It is due openpyxl cant handle files with list boxes, it does not interfere the proper runnin of the code. 
+import sys#we are gonna create a log file with it. The log file will be re-written everytime we use the code.
 #############################   Opening/creation of the log file   ###############################################
 sys.stdout=open("LogFile.txt","w")
 #############################   Excel File Path and Read Excel   ###############################################
 ## Somtimes Openpyxl will give a waning using Selenium. That warning does not affect the work, so we just ifnore it.
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
-##To get the username of the system
-username = os.getlogin()
-##In this way we do not assign a windows user, it will look for it.# Creating a Path variable and Use username var in f string
-path= os.path.expanduser(F'C:/Users/{username}/Downloads/Calls.xlsx')
-#The tab where the incidents/processes are must be called "Results"
-df=pd.read_excel(path,sheet_name='Results')
+username = os.getlogin()##To get the username of the system
+path= os.path.expanduser(F'C:/Users/{username}/Downloads/Calls.xlsx')##In this way we do not assign a windows user, it will look for it.# Creating a Path variable and Use username var in f string
+df=pd.read_excel(path,sheet_name='Results')#The tab where the incidents/processes are must be called "Results"
 df
 ##We print the step in case there is an error
 print ('Excel File was read', end='\n',flush=True)
+#############################   Open Chrome Browser   ###############################################
+options = Options()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+## We print the step in case there is an error
+print ('webdriver.Chrome was Opened', end='\n',flush=True)
 #############################   Open Chrome Browser   ###############################################
 options = Options()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
