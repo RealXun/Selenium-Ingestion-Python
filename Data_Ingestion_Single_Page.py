@@ -30,12 +30,6 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 ## We print the step in case there is an error
 print ('webdriver.Chrome was Opened', end='\n',flush=True)
-#############################   Open Chrome Browser   ###############################################
-options = Options()
-options.add_experimental_option('excludeSwitches', ['enable-logging'])
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-## We print the step in case there is an error
-print ('webdriver.Chrome was Opened', end='\n',flush=True)
 ############################################## Dictionaries Information Calls##############################################
 #Agent Name Dicctionary
 InfoAgent_dict={'Daniel':'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[2]/div[3]',
